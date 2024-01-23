@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #111;
+    
+
+    /* background-color: #00173B;
+    color: rgb(255, 255, 255); */
+}
+
+header {
+ width: 100%;
+ height: 620px;
+ background: #0f0c29;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #24243e81, #302b638b, #0f0c29), url(/imagenes/israel.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #24243e73, #302b6393, #0f0c2984), url(/imagenes/israel.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ background-attachment: fixed;
+ background-position: center;
+ background-size: cover;
+
+ 
+
+}
+
+
+
+header h2{
+    position: absolute;
+    top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 15px;
+   background-color: rgb(198, 10, 10);
+   /* box-shadow: 1px 1px 1px; */
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 21px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+nav li {
+   margin: 2px -30px;
+   margin-left: 150px;
+
+}
+
+h1{
+    margin-top: 218px;
+    color: aliceblue;
+    max-width: 600px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+main img{
+    width: 800px;
+    height: 500px;
+    margin: 30px;
+
+}
+
+main p{
+   
+    color: aliceblue;
+    position: absolute;
+    left: 870px;
+    top: 700px;
+    text-align: justify;
+    max-width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+aside{
+    max-width: 700px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-left: 49px;
+    font-weight: bold;
+}
+
+.ultima {
+    
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+   
+}
+
+
+
+
+.columna img{
+    width: 550px;
+    height: auto;
+    margin-left: 10px;
+  
+}
+
+
+
+.ultima h3{
+    max-width: 600px;
+    text-align: center;
+    font-size: 25px;
+    font-family: serif;
+    font-weight: 700;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.c{
+    position: absolute;
+    width: 100%;
+   bottom: -1590px;
+}
+footer ul {
+    display: flex;
+    padding: 45px;
+    background-color: #000000;
+    margin-top: 120px;
+}
+
+footer li{
+    margin: auto;
+    text-decoration: none;
+    list-style: none;
+   
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+footer h5{
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+label{
+    color: #ffffff;
+    font-size: 18px;
+}
