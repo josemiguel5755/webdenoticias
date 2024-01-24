@@ -349,13 +349,13 @@ h3{
 @media screen and (max-width: 375px){
   body{
     overflow-x: hidden;
+    max-width: 120%;
   }
   
   nav ul{
     display: flex;
     width: 105%;
     
- 
 
 }
 
@@ -373,7 +373,6 @@ h2{
 
 .carrucer {
   width: 380%;
-  
 
 }
 
