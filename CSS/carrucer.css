@@ -23,7 +23,6 @@ header {
  background-position: center;
  background-size: cover;
 
- 
 
 }
 
@@ -61,7 +60,7 @@ nav li {
 }
 
 h1{
-    margin-top: 218px;
+    margin-top: 180px;
     color: aliceblue;
     max-width: 600px;
     font-size: 35px;
