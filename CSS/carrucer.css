@@ -226,3 +226,70 @@ footer h5{
         width: 400%;
     }
 }
+
+@media screen and (max-width: 414px){
+
+    header {
+       width: 381%;
+      height: max-content;
+      background-size: contain ;
+      
+    }
+
+   header h2{
+        font-size: 23px;
+    }
+
+   
+    nav ul{
+        display: flex;
+        width: 103%;
+       
+     
+    
+    }
+    
+    nav a{
+      font-size: 38px;
+    }
+
+    h1{
+        font-size: 46px;
+        max-width: 1090px;
+        transform: translate(100px);
+        transform: translateY(-100px);
+       
+    }
+
+    main p{
+        margin-top: 100px;
+        font-size: 40px;
+        width: max-content;
+    }
+
+    aside h4{
+        font-size: 59px;
+        width: 700px;
+        
+    }
+
+    .columna img{
+        width: 800px;
+        height: max-content;
+    }
+
+    .columna h3{
+        font-size: 59px;
+        max-width: 800px;
+        
+    }
+
+    .c{
+        position: absolute;
+        top: 5080px;
+        width: 400%;
+    }
+    footer{
+        width: 400%;
+    }
+}
